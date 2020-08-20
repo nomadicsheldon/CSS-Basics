@@ -1,0 +1,40 @@
+/************************************TAG SELECTORS*****************/
+
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+
+img:hover {
+  background-color: gold;
+}
+
+
+/************************************CLASS SELECTORS*****************/
+/*Mostly use classes for separating design*/
+/*class can be used as back to back declaration*/
+
+.bacon {
+  background-color: green;
+}
+
+.broccoli {
+  background-color: red;
+}
+
+.circular {
+  border-radius:  100%
+}
+
+/************************************ID SELECTORS*****************/
+/* use id for separating design when you have to make unique change in one file, consider it as one change in file needed then use this.*/
+/*id can not be used as back to back declaration, it will invalidate all the declaration and will use default implementation*/
+
+#heading {
+  color: blue;
+}
+
+#big {
+  font-size: 10px;
+}
